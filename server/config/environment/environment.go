@@ -18,7 +18,6 @@ func ReadConfig() {
   viper.SetDefault("port", 9000)
 
   viper.Set("rootPath", rootPath)
-  
     
   viper.AddConfigPath(path.Join(rootPath, "server", "config", "environment"))  
   viper.SetConfigName(viper.GetString("env"))    

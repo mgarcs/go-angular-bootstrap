@@ -1,7 +1,6 @@
 package sample
 
 import (
-  // "fmt"
   "github.com/go-martini/martini"
 )
 

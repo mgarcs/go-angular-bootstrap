@@ -1,10 +1,8 @@
 {
   "name": "go-angular",
   "version": "0.0.0",
-  "main": "server/app.js",
   "dependencies": {},
   "devDependencies": {
-    "connect-livereload": "~0.4.0",
     "grunt": "~0.4.4",
     "grunt-angular-templates": "^0.5.4",
     "grunt-asset-injector": "^0.1.0",
@@ -58,9 +56,6 @@
   },
   "engines": {
     "node": ">=0.10.0"
-  },
-  "scripts": {
-    "start": "go run server/app.go"
   },
   "private": true
 }

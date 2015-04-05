@@ -7,8 +7,6 @@ import (
 	"github.com/go-martini/martini"
 )
 
-func RegisterRoutes(app *martini.ClassicMartini) {
-	fmt.Println("Registering routes...")
-  
+func RegisterRoutes(app *martini.ClassicMartini) {  
   app.Group("/samples", sample.Routes)  
 }

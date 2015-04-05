@@ -1,8 +1,6 @@
 package config
 
 import (
-  // "fmt"
-	// "path"
 	"github.com/go-martini/martini"
 	"github.com/spf13/viper"
 )
