@@ -1,0 +1,8 @@
+{
+  "publicPaths": [
+    "/var/www"
+  ],
+  
+  
+  "port": 3000
+}

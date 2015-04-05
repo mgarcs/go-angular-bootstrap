@@ -1,0 +1,6 @@
+{
+  "publicPaths": [
+    "./client",
+    "./.tmp"
+  ]
+}
